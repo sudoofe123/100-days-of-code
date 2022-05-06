@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+
+  background: linear-gradient(to right, rgb(234, 168, 250), rgb(174, 211, 253));
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.btn {
+  background-color: #fff;
+  color: #222;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(216, 79, 250), rgb(68, 154, 253));
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+#toasts {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.toast {
+  background-color: #fff;
+  color: #222;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  box-shadow: 1px 2px 3px #222;
+}
+/* ////////////////////////////////////// */
+.toaststwo {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.toast2 {
+  background-color: #fff;
+  /* color: sandybrown; */
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  box-shadow: 1px 2px 3px #222;
+}
+
+.toast2.info {
+  color: #222;
+}
+.toast2.success {
+  color: rgb(21, 253, 21);
+}
+.toast2.error {
+  color: rgb(255, 19, 19);
+}
