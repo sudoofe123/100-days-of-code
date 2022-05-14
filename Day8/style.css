@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+
+  background: linear-gradient(to right, rgb(237, 129, 249), rgb(202, 157, 248));
+}
+
+.container {
+  background-color: cornflowerblue;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.result span {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: rgb(255, 98, 98);
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Cinzel", serif;
+  color: #fff;
+  background-color: #333;
+}
+
+/* when hovering on the calculate button  */
+button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(202, 202, 202);
+}
+
+input {
+  padding: 0.3rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: "Cinzel", serif;
+}

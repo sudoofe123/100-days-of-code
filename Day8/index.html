@@ -1,44 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expanding cards</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <h1>project starter</h1>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="panel active " style="background-image: url('https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60');">
-
-            <h3>Explore the world</h3>
+      <h1>BMI Calculator</h1>
+      <form action="" class="form" id="form">
+        <span class="height"
+          ><label for="height">Height : </label
+          ><input type="text" id="height" placeholder="Enter your height in cm"
+        /></span>
+        <br />
+        <br />
+        <span class="weight"
+          ><label for="weight">Weight : </label
+          ><input type="text" id="weight" placeholder="Enter your weight in kg"
+        /></span>
+        <br />
+        <br />
+        <button class="calculate" id="calculate">Calculate</button><br /><br />
+        <div class="result"></div>
+        <br />
+        <div id="weight-guide">
+          <h3>BMI Weight Guide</h3>
+          <p>Under Weight = Less than 18.6</p>
+          <p>Normal Range = 18.6 and 24.9</p>
+          <p>Overweight = Greater than 24.9</p>
         </div>
-
-        <div class="panel" style="background-image: url(https://images.unsplash.com/photo-1643017680149-9c019ac75e83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60);">
-            <h3>fashion girl</h3>
-        </div>
-
-
-        <div class="panel " style="background-image: url(https://images.unsplash.com/photo-1643063300590-939a23055952?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60);">
-            <h3>Train images</h3>
-        </div>
-
-        <div class="panel" style="background-image: url(https://images.unsplash.com/photo-1643063239391-19c518f0d4f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60);">
-            <h3>Sea view</h3>
-        </div>
-
-        <div class="panel" style="background-image: url(https://images.unsplash.com/photo-1643039686492-535cfb3ccec3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60);">
-            <h3>exploring the pain</h3>
-        </div>
-        <div class="panel" style="background-image: url(https://images.unsplash.com/photo-1643017680149-9c019ac75e83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60);">
-            <h3>fashion girl</h3>
-        </div>
-
+      </form>
     </div>
-    <script src="script.js"></script>
-</body>
-
+    <script src="script.js" async defer></script>
+  </body>
 </html>
