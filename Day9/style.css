@@ -18,8 +18,10 @@ body {
 }
 
 .container {
-  background-color: rgba(0, 0, 0, 0.4);
+ 
   background-color: #333;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   padding: 20px 40px;
   border-radius: 5px;
 }
@@ -38,7 +40,7 @@ body {
   cursor: pointer;
   display: inline-block;
   width: 100%;
-  background: lightblue;
+ 
   background: linear-gradient(to right, rgb(115, 4, 115), rgb(132, 197, 251));
   padding: 15px;
   font-family: inherit;
@@ -98,6 +100,6 @@ body {
 
 .form-control input:focus + label span,
 .form-control input:valid + label span {
-  color: purple;
+  color: rgb(141, 139, 139);
   transform: translateY(-30px);
 }
