@@ -1,1 +1,1 @@
-# Vanilla-js-projects
+# 100daysofcode
