@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form validator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container" id="container">
+      <form action="" id="form" class="form">
+        <h2>Register with us</h2>
+
+        <div class="form-control">
+          <label for="fname"> Username</label>
+          <input
+            type="text"
+            id="username"
+            name="fname"
+            placeholder="Enter username"
+          />
+
+          <small>error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="Email">Email</label>
+          <input
+            type="text"
+            id="email"
+            name="Email"
+            placeholder=" Enter Email"
+          />
+
+          <small>error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="Password">Password</label>
+          <input
+            type="text"
+            id="password"
+            name="Password"
+            placeholder="Enter your Password"
+          />
+
+          <small>error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password2">Confirm Password</label>
+          <input
+            type="text"
+            id="password2"
+            name="Confirm"
+            placeholder="Confirm your Password"
+          />
+
+          <small>error message</small>
+        </div>
+
+        <input type="checkbox" id="checkbox" />
+        <label for="vehicle1"> I have read all the agreements</label><br />
+
+        <button class="btn">Register</button>
+      </form>
+    </div>
+    <script src="scripta.js"></script>
+  </body>
+</html>
