@@ -1,6 +1,6 @@
-## Unsplah Api Infinite Scroll
+# Unsplash Api Infinite Scroll
 
-# Display images from unsplash Api and add infinite scroll to fetch posts
+ Display images from unsplash Api and add infinite scroll to fetch posts
 
 ## Project Specification
 
@@ -15,8 +15,9 @@
 - Dom manipulation and event handling
 
 ## screenshot
+![Screenshot (783)](https://user-images.githubusercontent.com/96018983/171266384-812423d6-c107-49c9-864e-21b18b0987df.png)
 
-![SS](<screenshot(783).png)
+
 
 ## Live Preview
 
