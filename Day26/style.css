@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  display: flex;
+}
+
+.navbar {
+  background-color: #000000;
+  color: #fff;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.logo button {
+  padding: 0 1rem;
+  border: 1px solid #fff;
+  font-size: 1rem;
+  margin-right: 10px;
+  border-radius: 12px;
+}
+
+header {
+  position: relative;
+}
+section {
+  height: 70vh;
+  background-color: #dadbf1;
+}
+
+.btn {
+  position: fixed;
+  bottom: 1.4rem;
+  right: 2rem;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  background-color: blue;
+  color: #fff;
+  border-radius: 22px;
+  border: none;
+  cursor: pointer;
+  z-index: 1111;
+}
+#primary-btn {
+  background: #191a1b;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#login {
+  background: #4c5fd5;
+  color: #fff;
+  border-color: #4c5fd5;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 8px;
+}
+#login:focus {
+  outline: none;
+}
+#login:hover {
+  background-color: #fff;
+  color: black;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  margin-left: 2rem;
+}
+
+ul li button {
+  padding: 10px 20px;
+}
+.bmtn {
+  height: 15vh;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero h1 {
+  font-size: 4rem;
+}
+.hero input {
+  width: 70%;
+  padding: 1rem 1rem;
+  border: 1px solid #4c5fd5;
+  margin-top: 1rem;
+}
+input:focus {
+  outline: none;
+}
+/* //////////////////////////////section-2 */
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  row-gap: 3rem;
+  margin: 1rem 5rem;
+}
+
+img {
+  width: 100%;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+  margin-top: 2rem;
+}
+
+.boxes .box .content h2 {
+  font-size: 2rem;
+}
+.boxes .box .content p {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.box {
+  display: flex;
+
+  width: 100%;
+}
+.content {
+  padding: 2rem 1rem;
+  margin-left: 1.5rem;
+}
+
+.box .content h2,
+p {
+  padding-bottom: 2rem;
+}
+
+.boxes .box .content button {
+  border: none;
+  background: transparent;
+  color: #4c5fd5;
+  font-size: 1.6rem;
+}
+i {
+  margin-left: 1rem;
+}
+
+footer {
+  position: relative;
+  background-color: #000000;
+  padding: 2rem 0 8rem 0;
+}
+
+table {
+  margin: 1rem 2rem;
+  width: 70%;
+
+  color: #fff;
+}
+
+td,
+th {
+  /* border: 1px solid #dddddd; */
+  text-align: left;
+  padding: 8px;
+}
+
+h3 {
+  color: #fff;
+}
+
+.contact {
+  position: absolute;
+  left: 60%;
+  top: 60%;
+}
+
+.final {
+  position: absolute;
+  z-index: 1;
+  right: 5%;
+  bottom: 10%;
+
+  /* color: #fff; */
+}
+.final h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
